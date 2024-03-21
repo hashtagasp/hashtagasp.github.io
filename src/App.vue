@@ -316,7 +316,7 @@ const showWayTooClick = ref(false)
             </p> <!-- Truaka -->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt2" @mouseover="showModal = true" @mouseleave="showModal = false" @click="showModalClick = true">TRAKA Nikolausparty</button>
+              <button class="buttonProjekt buttonProjekt2" @mouseover="showTruaka = true" @mouseleave="showTruaka = false" @click="showTruakaClick = true">TRAKA Nikolausparty</button>
               <button class="buttonProjekt buttonProjekt4">@ABK Licht Licht</button>
               <button class="buttonProjekt buttonProjekt4">#ResolumeArena</button>
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
