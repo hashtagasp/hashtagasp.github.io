@@ -187,7 +187,7 @@ const showWayTooClick = ref(false)
             </p> <!-- Jour Fixe-->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt2" @mouseover="showJourFixe = true" @mouseleave="showJourFixe = false" @click="showJourFixe = true">Jour Fixe – Practices of Care</button>
+              <button class="buttonProjekt buttonProjekt2" @mouseover="showJourFixe = true" @mouseleave="showJourFixe = false" @click="showJourFixeClick = true">Jour Fixe – Practices of Care</button>
               <button class="buttonProjekt buttonProjekt4">@Markus Bader</button>
               <button class="buttonProjekt buttonProjekt4">@Blanca Will</button>
               <button class="buttonProjekt buttonProjekt4">@Klasse Roberts</button>
