@@ -1061,20 +1061,20 @@ li::marker{
 
 
 .button1 {
-  background-color: #111;
+  background-color: #070707;
   color: #0f0;
   border: 2px solid #00FF00;
 }
 
 .button1:hover {
   background-color: #0f0;
-  color: #111;
+  color: #070707;
 }
 
 .buttonProjekt {
   background-color: #04AA6D; /* Green */
   border: none;
-  color: #010;
+  color: #070707;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -1088,7 +1088,7 @@ li::marker{
 
 .buttonProjekt1{
   background-color: #0f0;
-  color: #111;
+  color: #070707;
   border: 2px solid #00FF00;
   border-radius: 35px;
   text-decoration: underline;
@@ -1097,7 +1097,7 @@ li::marker{
 
 .buttonProjekt1:hover {
   background-color: #0f0;
-  color: #111;
+  color: #070707;
   border-radius: 35px;
 }
 
@@ -1110,7 +1110,7 @@ li::marker{
 
 .buttonProjektShow2{
   background-color: #0f0;
-  color: #111;
+  color: #070707;
   border-radius: 35px;
   font-size: 45px;
 }
@@ -1129,7 +1129,7 @@ li::marker{
 }
 
 .buttonProjekt3{
-  background-color: #111;
+  background-color: #070707;
   color: #0f0;
   border: 2px solid #00FF00;
   border-radius: 100px;
