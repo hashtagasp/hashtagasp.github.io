@@ -5,12 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: [
-      '/hashtagasp.github.io/'
-  ],
-  plugins: [
-    vue(),
-  ],
+  plugins: [vue()],
+  base: '/hashtagasp.github.io',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
