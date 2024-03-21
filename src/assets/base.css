@@ -23,7 +23,7 @@
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--vt-c-white);
+  --color-background: #070707;
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
 
@@ -60,11 +60,8 @@
 
 body {
   min-height: 100vh;
-  color: #eee;
-  background: #070707;
-  transition:
-    color 0.5s,
-    background-color 0.5s;
+  color: #ddd;
+  background: #090909;
   line-height: 1.2;
   font-family:
     Inter,

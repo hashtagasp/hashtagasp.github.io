@@ -95,7 +95,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">#Packaging</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
               <button class="buttonProjekt buttonProjekt4">#Installation</button>
-              <button class="buttonProjekt buttonProjekt4">#Audio Visualles</button>
+              <button class="buttonProjekt buttonProjekt4">#Audiovisual</button>
             </p> <!-- Push the Button -->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
@@ -113,7 +113,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">#Packaging</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
               <button class="buttonProjekt buttonProjekt4">#Installation</button>
-              <button class="buttonProjekt buttonProjekt4">#Audio Visualles</button>
+              <button class="buttonProjekt buttonProjekt4">#Audiovisual</button>
             </p> <!-- Less Push the Button -->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 0px">
@@ -127,8 +127,8 @@ const showWayTooClick = ref(false)
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              Für die <button class="buttonProjekt buttonProjekt2" @mouseover="showInterDis = true" @mouseleave="showInterDis = false" @click="showInterDisClick = true">Interdisziplinäre Woche – Interdisciplanary Week</button>,
-              wurden wir dafür ausgewählt Interdisziplinäre Vorträge und Workshops zu bewerben, mit dem Schwerpunkt Social Media. Entstanden sind hier für ein Animiertes Poster, Banner und Social Media Formate.
+              Für die <button class="buttonProjekt buttonProjekt2" @mouseover="showInterDis = true" @mouseleave="showInterDis = false" @click="showInterDisClick = true">Interdisziplinäre Woche – Interdisciplinary Week</button>,
+              wurden wir dafür ausgewählt interdisziplinäre Vorträge und Workshops zu bewerben, mit dem Schwerpunkt Social Media. Entstanden sind hierfür ein animiertes Poster, Banner und Social Media Formate.
               <button class="buttonProjekt buttonProjekt4">@Elisabeth Spengler Castillo</button>
               <button class="buttonProjekt buttonProjekt4">@Klasse Roberts</button>
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
@@ -136,7 +136,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">#Photoshop</button>
               <button class="buttonProjekt buttonProjekt4">#InDesign</button>
               <button class="buttonProjekt buttonProjekt4">#Social Media</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
             </p> <!-- Interdisziplinär -->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
@@ -148,13 +148,13 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">#Photoshop</button>
               <button class="buttonProjekt buttonProjekt4">#InDesign</button>
               <button class="buttonProjekt buttonProjekt4">#Social Media</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
             </p> <!-- Less Interdisziplinär -->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
               <button class="buttonProjekt buttonProjekt2" @mouseover="showFilmPost = true" @mouseleave="showFilmPost = false" @click="showFilmPostClick = true">Das Ende vom Ende der Welt</button>,
-              war ein Filmposter-Porjekt welches als Resultat einer Kooperation zwischen der Filmakademie Wien und der ABK Stuttgart enstand. (not in use)
+              war ein Filmposter-Projekt, welches als Resultat einer Kooperation zwischen der Filmakademie Wien und der ABK Stuttgart enstand. (not in use)
               <button class="buttonProjekt buttonProjekt4">@Klasse Panholzer</button>
               <button class="buttonProjekt buttonProjekt4">#AdobeCloud</button>
               <button class="buttonProjekt buttonProjekt4">#InDesign</button>
@@ -172,7 +172,7 @@ const showWayTooClick = ref(false)
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
               <button class="buttonProjekt buttonProjekt2" @mouseover="showJourFixe = true" @mouseleave="showJourFixe = false" @click="showJourFixeClick = true">Jour Fixe – Practices of Care</button>,
-              ist ein annuale Vortragsreihe an der Akademie welche Themen wie Architektur, Stadplanung und Nachhaltigkeit diskutiert. Neben einem Siebdruck-Entwurf auf Kraftpaper entstand für den Pitch, ein Animiertes Poster und ein Flyer, welche die Veranstalltung bewerben sollten. (not in use)
+              ist einr annuale Vortragsreihe an der Akademie, welche Themen wie Architektur, Stadtplanung und Nachhaltigkeit diskutiert. Neben einem Siebdruck-Entwurf auf Kraft Paper, entstand für den Pitch ein animiertes Poster und ein Flyer, welche die Veranstaltung bewerben sollten. (not in use)
               <button class="buttonProjekt buttonProjekt4">@Markus Bader</button>
               <button class="buttonProjekt buttonProjekt4">@Blanca Will</button>
               <button class="buttonProjekt buttonProjekt4">@Klasse Roberts</button>
@@ -203,12 +203,12 @@ const showWayTooClick = ref(false)
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              Als einer der ausgewählten Poster, welche zur Feier für <button class="buttonProjekt buttonProjekt2" @mouseover="showKurt = true" @mouseleave="showKurt = false" @click="showKurtClick = true">Kurt Weidemann 2022</button> im Stadtpalais aushingen, konnte sich dieses Animierte Poster dazuzählen.
+              Als einer der ausgewählten Poster, welche zur Feier für <button class="buttonProjekt buttonProjekt2" @mouseover="showKurt = true" @mouseleave="showKurt = false" @click="showKurtClick = true">Kurt Weidemann 2022</button> im Stadtpalais aushingen, konnte sich dieses animierte Poster dazuzählen.
               <button class="buttonProjekt buttonProjekt4">@Klasse Roberts</button>
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt4">#PhotoshopAutomation</button>
               <button class="buttonProjekt buttonProjekt4">#InDesign</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
 
             </p> <!-- Kurt-->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
@@ -218,13 +218,13 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt4">#PhotoshopAutomation</button>
               <button class="buttonProjekt buttonProjekt4">#InDesign</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
 
             </p> <!-- Less Kurt-->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 0px">
               <br>
-              Durch meine Leidenschaft für Bewegbild und weil Social Media Beiträge und Plakate oft zu klein sind, rutschte ich schnell in das erstellen und konzipieren von Live-Visuals auf Veranstaltungen und Partys.
+              Durch meine Leidenschaft für Bewegbild und da Social Media Beiträge und Plakate oft zu klein sind, rutschte ich schnell in das Erstellen und Konzipieren von Live-Visuals auf Veranstaltungen und Partys.
             </p>
             <p v-if="showAll" style="font-size: 35px; margin-left: 0px">
               <br>
@@ -238,7 +238,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">@Klasse Brenner</button>
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt4">#Audioreactive</button>
 
             </p> <!-- DTF-->
@@ -248,21 +248,21 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">@Klasse Brenner</button>
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt4">#Audioreactive</button>
 
             </p> <!-- Less DTF-->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              Auf Basis des des Rundgang-Design 2023, durften wir die Visuals für die
+              Auf Basis des Rundgang-Design 2023, durften wir die Visuals für die
               <button class="buttonProjekt buttonProjekt2" @mouseover="showRG23 = true" @mouseleave="showRG23 = false" @click="showRG23Click = true">Rundgang Afterparty 2023</button> erstellen, mappen und live mixen.
               <button class="buttonProjekt buttonProjekt4">@ABK Licht Licht</button>
               <button class="buttonProjekt buttonProjekt4">#ResolumeArena</button>
               <button class="buttonProjekt buttonProjekt4">#Cavalry</button>
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt4">#Audioreactive</button>
 
             </p> <!-- Rundgang 2023 -->
@@ -274,7 +274,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">#Cavalry</button>
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt4">#Audioreactive</button>
 
             </p> <!-- Less Rundgang 2023 -->
@@ -286,7 +286,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt2" @mouseover="showContainer_02 = true" @mouseleave="showContainer_02 = false" @click="showContainerClick_02 = true">lay me next to her bones Afterparty</button>.
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt4">#Audioreactive</button>
 
             </p> <!-- Container City Festival Afterparty-->
@@ -296,7 +296,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt2" @mouseover="showContainer_02 = true" @mouseleave="showContainer_02 = false" @click="showContainerClick_02= true">lay me next to her bones Afterparty</button>
               <button class="buttonProjekt buttonProjekt4">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt4">#Audioreactive</button>
 
             </p> <!-- Less Container City Festival Afterparty-->
@@ -311,7 +311,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">#AfterEffects</button>
               <button class="buttonProjekt buttonProjekt4">#KI</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt4">#Audioreactive</button>
             </p> <!-- Truaka -->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
@@ -324,13 +324,13 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt4">#AfterEffects</button>
               <button class="buttonProjekt buttonProjekt4">#KI</button>
               <button class="buttonProjekt buttonProjekt4">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt4">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt4">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt4">#Audioreactive</button>
             </p> <!-- Less Truaka -->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 0px">
               <br>
-              Außerdem in der Pipeline sind:
+              Außerdem sind in der Pipeline:
             </p>
             <p v-if="showAll" style="font-size: 35px; margin-left: 0px">
               <br>
@@ -471,7 +471,7 @@ const showWayTooClick = ref(false)
 
             <p style="font-size: 35px; margin-left: 60px">
               <br>
-              Kontak:
+              Kontakt:
               <button class="buttonProjekt buttonProjekt4">@christianmiller.tox</button>
               <button class="buttonProjekt buttonProjekt4">christian.mueller2@abk-stuttgart.de</button></p> <!-- Kontakt-->
             <p><br></p>
@@ -520,12 +520,12 @@ const showWayTooClick = ref(false)
           </div> <!-- WayTooMuch-->
           <!-- Shower-->
           <div v-if="showPushButton || showPushButtonClick" class="middle">
-            <video autoplay muted loop>
+            <video autoplay muted loop preload="auto">
               <source src="./assets/0_ptb_02.mp4" type="video/mp4">
             </video>
           </div> <!-- Push The Button-->
           <div v-if="showInterDis || showInterDisClick" class="middle">
-            <video height="725" width="408" autoplay muted loop>
+            <video height="725" width="408" autoplay muted loop preload="auto">
               <source src="./assets/00_Interdis_01.mp4" type="video/mp4">
             </video>
           </div> <!-- Interdisziplinär-->
@@ -611,7 +611,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">#Packaging</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
               <button class="buttonProjekt buttonProjekt3">#Installation</button>
-              <button class="buttonProjekt buttonProjekt3">#Audio Visualles</button>
+              <button class="buttonProjekt buttonProjekt3">#Audiovisual</button>
             </p> <!-- Push the Button -->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
@@ -629,7 +629,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">#Packaging</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
               <button class="buttonProjekt buttonProjekt3">#Installation</button>
-              <button class="buttonProjekt buttonProjekt3">#Audio Visualles</button>
+              <button class="buttonProjekt buttonProjekt3">#Audiovisual</button>
             </p> <!-- Less Push the Button -->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 0px">
@@ -643,8 +643,8 @@ const showWayTooClick = ref(false)
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              Für die <button class="buttonProjekt buttonProjekt1">Interdisziplinäre Woche – Interdisciplanary Week</button>,
-              wurden wir dafür ausgewählt Interdisziplinäre Vorträge und Workshops zu bewerben, mit dem Schwerpunkt Social Media. Entstanden sind hier für ein Animiertes Poster, Banner und Social Media Formate.
+              Für die <button class="buttonProjekt buttonProjekt1">Interdisziplinäre Woche – Interdisciplnary Week</button>,
+              wurden wir dafür ausgewählt interdisziplinäre Vorträge und Workshops zu bewerben, mit dem Schwerpunkt Social Media. Entstanden sind hierfür ein animiertes Poster, Banner und Social Media Formate.
               <button class="buttonProjekt buttonProjekt3">@Elisabeth Spengler Castillo</button>
               <button class="buttonProjekt buttonProjekt3">@Klasse Roberts</button>
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
@@ -652,11 +652,11 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">#Photoshop</button>
               <button class="buttonProjekt buttonProjekt3">#InDesign</button>
               <button class="buttonProjekt buttonProjekt3">#Social Media</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generativ Design</button>
             </p> <!-- Interdisziplinär -->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt1">Interdisziplinäre Woche – Interdisciplanary Week</button>
+              <button class="buttonProjekt buttonProjekt1">Interdisziplinäre Woche – Interdisciplnary Week</button>
               <button class="buttonProjekt buttonProjekt3">@Elisabeth Spengler Castillo</button>
               <button class="buttonProjekt buttonProjekt3">@Klasse Roberts</button>
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
@@ -664,13 +664,13 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">#Photoshop</button>
               <button class="buttonProjekt buttonProjekt3">#InDesign</button>
               <button class="buttonProjekt buttonProjekt3">#Social Media</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generativ Design</button>
             </p> <!-- Less Interdisziplinär -->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
               <button class="buttonProjekt buttonProjekt1">Das Ende vom Ende der Welt</button>,
-              war ein Filmposter-Porjekt welches als Resultat einer Kooperation zwischen der Filmakademie Wien und der ABK Stuttgart enstand. (not in use)
+              war ein Filmposter-Projekt, welches als Resultat einer Kooperation zwischen der Filmakademie Wien und der ABK Stuttgart enstand. (not in use)
               <button class="buttonProjekt buttonProjekt3">@Klasse Panholzer</button>
               <button class="buttonProjekt buttonProjekt3">#AdobeCloud</button>
               <button class="buttonProjekt buttonProjekt3">#InDesign</button>
@@ -688,7 +688,7 @@ const showWayTooClick = ref(false)
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
               <button class="buttonProjekt buttonProjekt1">Jour Fixe – Practices of Care</button>,
-              ist ein annuale Vortragsreihe an der Akademie welche Themen wie Architektur, Stadplanung und Nachhaltigkeit diskutiert. Neben einem Siebdruck-Entwurf auf Kraftpaper entstand für den Pitch, ein Animiertes Poster und ein Flyer, welche die Veranstalltung bewerben sollten. (not in use)
+              ist eine annuale Vortragsreihe an der Akademie, welche Themen wie Architektur, Stadtplanung und Nachhaltigkeit diskutiert. Neben einem Siebdruck-Entwurf auf Kraft Paper, entstand für den Pitch ein animiertes Poster und ein Flyer, welche die Veranstaltung bewerben sollte. (not in use)
               <button class="buttonProjekt buttonProjekt3">@Markus Bader</button>
               <button class="buttonProjekt buttonProjekt3">@Blanca Will</button>
               <button class="buttonProjekt buttonProjekt3">@Klasse Roberts</button>
@@ -719,12 +719,12 @@ const showWayTooClick = ref(false)
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              Als einer der ausgewählten Poster, welche zur Feier für <button class="buttonProjekt buttonProjekt1">Kurt Weidemann 2022</button> im Stadtpalais aushingen, konnte sich dieses Animierte Poster dazuzählen.
+              Als einer der ausgewählten Poster, welche zur Feier für <button class="buttonProjekt buttonProjekt1">Kurt Weidemann 2022</button> im Stadtpalais aushingen, konnte sich dieses animierte Poster dazuzählen.
               <button class="buttonProjekt buttonProjekt3">@Klasse Roberts</button>
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt3">#PhotoshopAutomation</button>
               <button class="buttonProjekt buttonProjekt3">#InDesign</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
 
             </p> <!-- Kurt-->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
@@ -734,13 +734,13 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt3">#PhotoshopAutomation</button>
               <button class="buttonProjekt buttonProjekt3">#InDesign</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
 
             </p> <!-- Less Kurt-->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 0px">
               <br>
-              Durch meine Leidenschaft für Bewegbild und weil Social Media Beiträge und Plakate oft zu klein sind, rutschte ich schnell in das erstellen und konzipieren von Live-Visuals auf Veranstaltungen und Partys.
+              Durch meine Leidenschaft für Bewegbild und da Social Media Beiträge und Plakate oft zu klein sind, rutschte ich schnell in das Erstellen und Konzipieren von Live-Visuals auf Veranstaltungen und Partys.
             </p>
             <p v-if="showAll" style="font-size: 35px; margin-left: 0px">
               <br>
@@ -754,7 +754,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">@Klasse Brenner</button>
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt3">#Audioreactive</button>
 
             </p> <!-- DTF-->
@@ -764,21 +764,21 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">@Klasse Brenner</button>
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt3">#Audioreactive</button>
 
             </p> <!-- Less DTF-->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              Auf Basis des des Rundgang-Design 2023, durften wir die Visuals für die
+              Auf Basis des Rundgang-Design 2023, durften wir die Visuals für die
               <button class="buttonProjekt buttonProjekt1">Rundgang Afterparty 2023</button> erstellen, mappen und live mixen.
               <button class="buttonProjekt buttonProjekt3">@ABK Licht Licht</button>
               <button class="buttonProjekt buttonProjekt3">#ResolumeArena</button>
               <button class="buttonProjekt buttonProjekt3">#Cavalry</button>
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt3">#Audioreactive</button>
 
             </p> <!-- Rundgang 2023 -->
@@ -790,7 +790,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">#Cavalry</button>
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt3">#Audioreactive</button>
 
             </p> <!-- Less Rundgang 2023 -->
@@ -802,7 +802,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt1">lay me next to her bones Afterparty</button>.
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt3">#Audioreactive</button>
 
             </p> <!-- Container City Festival Afterparty-->
@@ -812,7 +812,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt1">lay me next to her bones Afterparty</button>
               <button class="buttonProjekt buttonProjekt3">#TouchDesigner</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt3">#Audioreactive</button>
 
             </p> <!-- Less Container City Festival Afterparty-->
@@ -827,7 +827,7 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">#AfterEffects</button>
               <button class="buttonProjekt buttonProjekt3">#KI</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt3">#Audioreactive</button>
             </p> <!-- Truaka -->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
@@ -840,13 +840,13 @@ const showWayTooClick = ref(false)
               <button class="buttonProjekt buttonProjekt3">#AfterEffects</button>
               <button class="buttonProjekt buttonProjekt3">#KI</button>
               <button class="buttonProjekt buttonProjekt3">#Projection Mapping</button>
-              <button class="buttonProjekt buttonProjekt3">#GenerativDesign</button>
+              <button class="buttonProjekt buttonProjekt3">#Generative Design</button>
               <button class="buttonProjekt buttonProjekt3">#Audioreactive</button>
             </p> <!-- Less Truaka -->
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 0px">
               <br>
-              Außerdem in der Pipeline sind:
+              Außerdem sind in der Pipeline:
             </p>
             <p v-if="showAll" style="font-size: 35px; margin-left: 0px">
               <br>
@@ -987,7 +987,7 @@ const showWayTooClick = ref(false)
 
             <p style="font-size: 35px; margin-left: 60px">
               <br>
-              Kontak:
+              Kontakt:
               <button class="buttonProjekt buttonProjekt3">@christianmiller.tox</button>
               <button class="buttonProjekt buttonProjekt3">christian.mueller2@abk-stuttgart.de</button></p> <!-- Kontakt-->
             <p><br></p>
