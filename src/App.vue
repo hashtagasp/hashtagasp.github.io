@@ -1038,7 +1038,6 @@ li::marker{
   left: 50%;
   margin-top: -360px;
   margin-left: -640px;
-  backdrop-filter: blur(10px);
 }
 
 .button {
