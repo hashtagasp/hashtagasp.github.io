@@ -153,7 +153,7 @@ const showWayTooClick = ref(false)
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt2" @mouseover="showFilmPost = true" @mouseleave="showFilmPost = false" @click="showFilmPostClick = true">Das Ende vom Ende der Welt</button>,
+              <button class="buttonProjekt buttonProjekt2" @mouseover="showFilmPost = true" @mouseleave="showFilmPost = false" @click="showFilmPostClick = true">Das Ende vom Ende der Welt(Bild)</button>,
               war ein Filmposter-Projekt, welches als Resultat einer Kooperation zwischen der Filmakademie Wien und der ABK Stuttgart enstand. (not in use)
               <button class="buttonProjekt buttonProjekt4">@Klasse Panholzer</button>
               <button class="buttonProjekt buttonProjekt4">#AdobeCloud</button>
@@ -162,7 +162,7 @@ const showWayTooClick = ref(false)
             </p> <!-- Filmposter-->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt2" @mouseover="showFilmPost = true" @mouseleave="showFilmPost = false" @click="showFilmPostClick = true">Das Ende vom Ende der Welt</button>
+              <button class="buttonProjekt buttonProjekt2" @mouseover="showFilmPost = true" @mouseleave="showFilmPost = false" @click="showFilmPostClick = true">Das Ende vom Ende der Welt(Bild)</button>
               <button class="buttonProjekt buttonProjekt4">@Klasse Panholzer</button>
               <button class="buttonProjekt buttonProjekt4">#AdobeCloud</button>
               <button class="buttonProjekt buttonProjekt4">#InDesign</button>
@@ -391,7 +391,7 @@ const showWayTooClick = ref(false)
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt2" @mouseover="showSchwarz = true" @mouseleave="showSchwarz = false" @click="showSchwarzClick = true">Schwarzbrennen</button>
+              <button class="buttonProjekt buttonProjekt2" @mouseover="showSchwarz = true" @mouseleave="showSchwarz = false" @click="showSchwarzClick = true">Schwarzbrennen(Bild)</button>
               Publikation, Installation. (Release Juli 2024)
               <button class="buttonProjekt buttonProjekt4">@Nick Liebig</button>
               <button class="buttonProjekt buttonProjekt4">#AdobeCloud</button>
@@ -401,7 +401,7 @@ const showWayTooClick = ref(false)
             </p> <!-- Schwarz-->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt2" @mouseover="showSchwarz = true" @mouseleave="showSchwarz = false" @click="showSchwarzClick = true">Schwarzbrennen</button>
+              <button class="buttonProjekt buttonProjekt2" @mouseover="showSchwarz = true" @mouseleave="showSchwarz = false" @click="showSchwarzClick = true">Schwarzbrennen(Bild)</button>
               <button class="buttonProjekt buttonProjekt4">@Nick Liebig</button>
               <button class="buttonProjekt buttonProjekt4">#AdobeCloud</button>
               <button class="buttonProjekt buttonProjekt4">#Hefe</button>
@@ -669,7 +669,7 @@ const showWayTooClick = ref(false)
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt1">Das Ende vom Ende der Welt</button>,
+              <button class="buttonProjekt buttonProjekt1">Das Ende vom Ende der Welt(Bild)</button>,
               war ein Filmposter-Projekt, welches als Resultat einer Kooperation zwischen der Filmakademie Wien und der ABK Stuttgart enstand. (not in use)
               <button class="buttonProjekt buttonProjekt3">@Klasse Panholzer</button>
               <button class="buttonProjekt buttonProjekt3">#AdobeCloud</button>
@@ -678,7 +678,7 @@ const showWayTooClick = ref(false)
             </p> <!-- Filmposter-->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt1">Das Ende vom Ende der Welt</button>
+              <button class="buttonProjekt buttonProjekt1">Das Ende vom Ende der Welt(Bild)</button>
               <button class="buttonProjekt buttonProjekt3">@Klasse Panholzer</button>
               <button class="buttonProjekt buttonProjekt3">#AdobeCloud</button>
               <button class="buttonProjekt buttonProjekt3">#InDesign</button>
@@ -907,7 +907,7 @@ const showWayTooClick = ref(false)
 
             <p v-if="!showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt1">Schwarzbrennen</button>
+              <button class="buttonProjekt buttonProjekt1">Schwarzbrennen(Bild)</button>
               Publikation, Installation. (Release Juli 2024)
               <button class="buttonProjekt buttonProjekt3">@Nick Liebig</button>
               <button class="buttonProjekt buttonProjekt3">#AdobeCloud</button>
@@ -917,7 +917,7 @@ const showWayTooClick = ref(false)
             </p> <!-- Schwarz-->
             <p v-if="showAll" style="font-size: 35px; margin-left: 60px">
               <br>
-              <button class="buttonProjekt buttonProjekt1">Schwarzbrennen</button>
+              <button class="buttonProjekt buttonProjekt1">Schwarzbrennen(Bild)</button>
               <button class="buttonProjekt buttonProjekt3">@Nick Liebig</button>
               <button class="buttonProjekt buttonProjekt3">#AdobeCloud</button>
               <button class="buttonProjekt buttonProjekt3">#Hefe</button>
