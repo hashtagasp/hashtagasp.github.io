@@ -278,7 +278,7 @@ const showVita= ref(true)
               <button class="contentBtn-Black"><span class="dot"></span> CAVALRY</button>
             </div>
             <div class="contentP-Btn-Contri" v-if="showContainer">
-              <button class="contentBtn-White">SUMMER 2023 & 2024</button>
+              <button class="contentBtn-Black">SUMMER 2023 & 2024</button>
             </div>
             <div class="contentP-Btn-Black">
               <p class="contentP" v-if="showContainer">For Container City (Neue Oper), I have now been commissioned several times to create and perform live visuals at events.</p>
