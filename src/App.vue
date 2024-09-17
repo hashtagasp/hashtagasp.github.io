@@ -74,7 +74,7 @@ const showVita= ref(true)
             <div class="contentP-Btn-Contri">
               <p class="contentP">Programms:</p>
             </div>
-            <div class="contentP-Btn-White">
+            <div class="contentP-Btn-Contri">
               <button class="contentBtn-White"><span class="dot-White"></span> ADOBE CC</button>
               <button class="contentBtn-White"><span class="dot-White"></span> TOUCHDESIGNER</button>
               <button class="contentBtn-White"><span class="dot-White"></span> CAVALRY</button>
@@ -121,7 +121,7 @@ const showVita= ref(true)
               <p class="contentP"><br>Contact:</p>
             </div>
             <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span>CHRISTIAN.MUELLER2@STUD.ABK-STUTTGART.DE</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> CHRISTIAN.MUELLER2@STUD.ABK-STUTTGART.DE</button>
             </div>
           </div>
         </div>
