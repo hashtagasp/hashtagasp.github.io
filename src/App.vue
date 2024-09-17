@@ -111,10 +111,10 @@ const showVita= ref(true)
               <button class="contentBtn-White"><span class="dot-White"></span> 2018-2019 HDM STUTTGART - COMPUTER SCIENCE(MEDIA)</button>
             </div>
             <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span> 2019-2021 ABK STUTTGART - FINE ARTS</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> 2019-2021 GOING ABK STUTTGART - FINE ARTS</button>
             </div>
             <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span> 2021-ON GOING ABK STUTTGART - COMMUNICATION DESIGN</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> 2021-ON GOING GOING ABK STUTTGART - COMMUNICATION DESIGN</button>
             </div>
 
             <div class="contentP-Btn-Contri">
@@ -152,8 +152,11 @@ const showVita= ref(true)
             <div class="contentP-Btn-Contri" v-if="showZimmer">
               <button class="contentBtn-White">@JONAS HERMANN</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showZimmer">
+              <button class="contentBtn-White">SUMMER 2024</button>
+            </div>
             <div class="contentP-Btn-White" v-if="showZimmer">
-              <p class="contentP">Hallo
+              <p class="contentP">We created a social media-focused promotion with an animated poster and social media posts for the fine art exhibition at an abandoned hotel called 'Hotel Waldlust' for Klasse Bechinger.
               </p>
             </div>
           </div>
@@ -193,8 +196,11 @@ const showVita= ref(true)
               <button class="contentBtn-Black">@MARYNA ZEVAKO</button>
               <button class="contentBtn-Black">@MAJKEN BÖCKMANN</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showRG24">
+              <button class="contentBtn-Black">SPRING & SUMMER 2024</button>
+            </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showRG24">Hallo</p>
+              <p class="contentP" v-if="showRG24">Creation and development of the concept, CI, promotional materials (social media, posters, flyers, stickers, merch, mascot, etc.) for the ABK Rundgang 2024. My focus was mainly on animation and 3D.</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showRG24"><button  class="contentBtn-Open-B" @click="showRG24 = false" >CLOSE</button></div>
@@ -229,8 +235,11 @@ const showVita= ref(true)
               <button class="contentBtn-White">@NICK STÄBLER</button>
               <button class="contentBtn-White">@TIM FRITZSCHE</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showButton">
+              <button class="contentBtn-White">AUTUMN 2023</button>
+            </div>
             <div class="contentP-Btn-White" v-if="showButton">
-              <p class="contentP">Hallo
+              <p class="contentP">With a slot machine at the Kulturkiosk, we took money from people’s pockets. Our audiovisual installation, 'Push the Button,' which we presented at the group exhibition 'Reward Center' by Klasse Cluss, featured a self-built, programmed, and animated slot machine. The grand prize was a self-cast trophy candle with packaging, and a small sticker served as a consolation prize.
               </p>
             </div>
           </div>
@@ -239,6 +248,8 @@ const showVita= ref(true)
         </div>
       </div>
     </div>
+
+
 
     <!-- Container City -->
     <div class="contentSec" v-if="showVita">
@@ -266,8 +277,11 @@ const showVita= ref(true)
               <button class="contentBtn-Black"><span class="dot"></span> RESOLUME ARENA</button>
               <button class="contentBtn-Black"><span class="dot"></span> CAVALRY</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showContainer">
+              <button class="contentBtn-White">SUMMER 2023 & 2024</button>
+            </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showContainer">Hallo</p>
+              <p class="contentP" v-if="showContainer">For Container City (Neue Oper), I have now been commissioned several times to create and perform live visuals at events.</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showContainer"><button  class="contentBtn-Open-B" @click="showContainer= false" >CLOSE</button></div>
@@ -299,8 +313,12 @@ const showVita= ref(true)
             <div class="contentP-Btn-Contri" v-if="showID23">
               <button class="contentBtn-White">@ELISABETH SPENGLER CASTILLO</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showID23">
+              <button class="contentBtn-White">WINTER 2023</button>
+            </div>
             <div class="contentP-Btn-White" v-if="showID23">
-              <p class="contentP">Hallo
+              <p class="contentP">
+                For the 'Interdisciplinary Week 2023', we were selected to promote interdisciplinary lectures and workshops, with a focus on social media. As part of this, an animated poster, banners, and various social media formats were created.
               </p>
             </div>
           </div>
@@ -309,7 +327,6 @@ const showVita= ref(true)
         </div>
       </div>
     </div>
-
 
     <!-- Workshops 2024 -->
     <div class="contentSec" v-if="showVita">
@@ -330,9 +347,13 @@ const showVita= ref(true)
               <button class="contentBtn-Black"><span class="dot"></span> BLENDER</button>
               <button class="contentBtn-Black"><span class="dot"></span> ADOBE ID</button>
             </div>
-            <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showKDW24">Hallo</p>
+            <div class="contentP-Btn-Contri" v-if="showKDW24">
+              <button class="contentBtn-Black">SPRING 2024</button>
             </div>
+            <div class="contentP-Btn-Black">
+              <p class="contentP" v-if="showKDW24">A small promotional poster for the annual communication design workshops at ABK Stuttgart.</p>
+            </div>
+
           </div>
           <div class="contentOpen" v-if="showKDW24"><button  class="contentBtn-Open-B" @click="showKDW24 = false" >CLOSE</button></div>
           <div class="contentOpen" v-if="!showKDW24"><button  class="contentBtn-Open-B" @click="showKDW24 = true" >OPEN</button></div>
@@ -364,8 +385,11 @@ const showVita= ref(true)
             <div class="contentP-Btn-Contri" v-if="showTRAKA">
               <button class="contentBtn-White">@ABK LICHT LICHT</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showTRAKA">
+              <button class="contentBtn-White">WINTER 2023</button>
+            </div>
             <div class="contentP-Btn-White" v-if="showTRAKA">
-              <p class="contentP">Hallo
+              <p class="contentP">Simply VRUM VRUM, Pabst Blue Ribbon Beer, and trucks - themed party at ABK.
               </p>
             </div>
           </div>
@@ -398,8 +422,11 @@ const showVita= ref(true)
             <div class="contentP-Btn-Contri" v-if="showRGA23">
               <button class="contentBtn-Black">@ABK LICHT LICHT</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showRGA23">
+              <button class="contentBtn-Black">SUMMER 2023</button>
+            </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showRGA23">Hallo</p>
+              <p class="contentP" v-if="showRGA23">Based on the Rundgang 2023 design, we were tasked with creating, mapping, and live-mixing the visuals for the Rundgang Afterparty 2023.</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showRGA23"><button  class="contentBtn-Open-B" @click="showRGA23 = false" >CLOSE</button></div>
@@ -427,8 +454,12 @@ const showVita= ref(true)
             <div class="contentP-Btn-Programme">
               <button class="contentBtn-White"><span class="dot-White"></span> TOUCHDESIGNER</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showDTF">
+              <button class="contentBtn-Whitw">SPRING 2023</button>
+            </div>
             <div class="contentP-Btn-White" v-if="showDTF">
-              <p class="contentP">Hallo
+              <p class="contentP">
+                'Down to F*ck' was the first commission for an audio-reactive live visual that I had the opportunity to design for the exhibition and afterparty of the Klasse Brenner.
               </p>
             </div>
           </div>
@@ -468,8 +499,11 @@ const showVita= ref(true)
             <div class="contentP-Btn-Contri" v-if="showBenz">
               <button class="contentBtn-Black">@LILIAN HUTCHINSON</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showBenz">
+              <button class="contentBtn-Black">SUMMER 2024</button>
+            </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showBenz">Hallo</p>
+              <p class="contentP" v-if="showBenz">We were commissioned to prepare live visuals and VJ at 'Discotronic 2024' at the Mercedes Benz Museum.</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showBenz"><button  class="contentBtn-Open-B" @click="showBenz = false" >CLOSE</button></div>
@@ -495,8 +529,12 @@ const showVita= ref(true)
               <button class="contentBtn-White"><span class="dot-White"></span> ADOBE PS</button>
               <button class="contentBtn-White"><span class="dot-White"></span> ADOBE ID</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showDEVEDW">
+              <button class="contentBtn-White">WINTER 2021</button>
+            </div>
             <div class="contentP-Btn-White" v-if="showDEVEDW">
-              <p class="contentP">Hallo
+              <p class="contentP">
+                'Das Ende vom Ende der Welt' was a film poster project that resulted from a collaboration between the Vienna Film Academy and the ABK Stuttgart.
               </p>
             </div>
           </div>
@@ -527,11 +565,14 @@ const showVita= ref(true)
               <button class="contentBtn-Black"><span class="dot"></span> BLENDER</button>
             </div>
             <div class="contentP-Btn-Contri" v-if="showJourFixe">
-              <button class="contentBtn-Black"><span class="dot"></span> MARKUS BADER</button>
-              <button class="contentBtn-Black"><span class="dot"></span> BLANCA WILL</button>
+              <button class="contentBtn-Black">@MARKUS BADER</button>
+              <button class="contentBtn-Black">@BLANCA WILL</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showJourFixe">
+              <button class="contentBtn-Black">AUTUMN 2022</button>
             </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showJourFixe">Hallo</p>
+              <p class="contentP" v-if="showJourFixe">'Jour Fixe – Practices of Care' is an annual lecture series at the Academy that discusses topics such as architecture, urban planning, and sustainability. In addition to a screen printing design on kraft paper, an animated poster and a flyer were created for the pitch to promote the event."</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showJourFixe"><button  class="contentBtn-Open-B" @click="showJourFixe = false" >CLOSE</button></div>
@@ -564,8 +605,11 @@ const showVita= ref(true)
             <div class="contentP-Btn-Contri" v-if="showID24">
               <button class="contentBtn-White">@ELISABETH SPENGLER CASTILLO</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showID24">
+              <button class="contentBtn-White">IN PROGRESS</button>
+            </div>
             <div class="contentP-Btn-White" v-if="showID24">
-              <p class="contentP">Hallo
+              <p class="contentP">For this year's Interdisciplinary Week, we were once again commissioned to promote interdisciplinary lectures and workshops, with a focus on social media. As part of this, an animated poster, banners, and social media formats were created.
               </p>
             </div>
           </div>
@@ -596,11 +640,14 @@ const showVita= ref(true)
               <button class="contentBtn-Black"><span class="dot"></span> CAVALRY</button>
             </div>
             <div class="contentP-Btn-Contri" v-if="showLS24">
-              <button class="contentBtn-Black"><span class="dot"></span> LILIAN HUTCHINSON</button>
-              <button class="contentBtn-Black"><span class="dot"></span> ABK LICHT LICHT</button>
+              <button class="contentBtn-Black">@LILIAN HUTCHINSON</button>
+              <button class="contentBtn-Black">@ABK LICHT LICHT</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showLS24">
+              <button class="contentBtn-Black">IN PROGRESS</button>
             </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showLS24">Hallo</p>
+              <p class="contentP" v-if="showLS24">Animated poster and social media to promote the annual VJ-related workshops in November.</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showLS24"><button  class="contentBtn-Open-B" @click="showLS24 = false" >CLOSE</button></div>
@@ -633,8 +680,11 @@ const showVita= ref(true)
               <button class="contentBtn-White">@MIRIAM HÄFELE</button>
               <button class="contentBtn-White">@FRANZISKA BRENNER</button>
             </div>
+            <div class="contentP-Btn-Contri" v-if="showMAD">
+              <button class="contentBtn-White">IN PROGRESS</button>
+            </div>
             <div class="contentP-Btn-White" v-if="showMAD">
-              <p class="contentP">Hallo
+              <p class="contentP">Branding, Logo, Flyer, Website, Merch.
               </p>
             </div>
           </div>
