@@ -105,16 +105,16 @@ const showVita= ref(true)
               <p class="contentP"><br>Schools:</p>
             </div>
             <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span> 2015-2018 HAUCHLER STUDIO - APPRENTICESHIP GRAFIK DESIGN</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> 2015-2018 HAUCHLER STUDIO - APPRENTICESHIP GRAPHIC DESIGN</button>
             </div>
             <div class="contentP-Btn-Contri">
               <button class="contentBtn-White"><span class="dot-White"></span> 2018-2019 HDM STUTTGART - COMPUTER SCIENCE(MEDIA)</button>
             </div>
             <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span> 2019-2021 GOING ABK STUTTGART - FINE ARTS</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> 2019-2021 ABK STUTTGART - FINE ARTS</button>
             </div>
             <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span> 2021-ON GOING GOING ABK STUTTGART - COMMUNICATION DESIGN</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> 2021-ON GOING ABK STUTTGART - COMMUNICATION DESIGN</button>
             </div>
 
             <div class="contentP-Btn-Contri">
