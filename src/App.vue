@@ -173,7 +173,10 @@ const showVita= ref(true)
           <button class="htwo-Black" v-if="showRG24" @click="showRG24 = false"><h2>ABK Rundgang 2024</h2><h3> &ensp;[CI & Motion]</h3></button>
           <div class="contentVideo" v-if="showRG24">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/RG24_Web.mp4" type="video/mp4">
+            </video>
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/RG24_Gray.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -307,40 +310,35 @@ const showVita= ref(true)
       </div>
     </div>
 
-    <!-- Mercedes Benz -->
+
+    <!-- Workshops 2024 -->
     <div class="contentSec" v-if="showVita">
-      <p class="contentPB-Black" v-if="!showBenz"><button @click="showBenz = true" class="contentLeft-Black">&emsp;</button></p>
-      <p class="contentPB-Black" v-if="showBenz"><button @click="showBenz = false" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="!showKDW24"><button @click="showKDW24 = true" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="showKDW24"><button @click="showKDW24 = false" class="contentLeft-Black">&emsp;</button></p>
       <div class="contentCard-Black">
         <div class="contentTitle">
-          <button class="htwo-Black" v-if="!showBenz" @click="showBenz = true"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
-          <button class="htwo-Black" v-if="showBenz" @click="showBenz = false"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
-          <div class="contentVideo" v-if="showBenz">
-            <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
-            </video>
-          </div>
+          <button class="htwo-Black" v-if="!showKDW24" @click="showKDW24 = true"><h2>KD Workshops 2024</h2><h3>&ensp;[Poster]</h3></button>
+          <button class="htwo-Black" v-if="showKDW24" @click="showKDW24 = false"><h2>KD Workshops 2024</h2><h3>&ensp;[Poster]</h3></button>
+          <div class="contentVideo" v-if="showKDW24">
+
+            <img src="./assets/KDW24.png" height="auto" width="100%"/></div>
         </div>
         <div class="contentHeader">
           <div>
             <div class="contentP-Btn-Programme">
-              <button class="contentBtn-Black"><span class="dot"></span> RESOLUME ARENA</button>
               <button class="contentBtn-Black"><span class="dot"></span> TOUCHDESIGNER</button>
-              <button class="contentBtn-Black"><span class="dot"></span> CAVALRY</button>
-            </div>
-            <div class="contentP-Btn-Contri" v-if="showBenz">
-              <button class="contentBtn-Black">@LILIAN HUTCHINSON</button>
+              <button class="contentBtn-Black"><span class="dot"></span> BLENDER</button>
+              <button class="contentBtn-Black"><span class="dot"></span> ADOBE ID</button>
             </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showBenz">Hallo</p>
+              <p class="contentP" v-if="showKDW24">Hallo</p>
             </div>
           </div>
-          <div class="contentOpen" v-if="showBenz"><button  class="contentBtn-Open-B" @click="showBenz = false" >CLOSE</button></div>
-          <div class="contentOpen" v-if="!showBenz"><button  class="contentBtn-Open-B" @click="showBenz = true" >OPEN</button></div>
+          <div class="contentOpen" v-if="showKDW24"><button  class="contentBtn-Open-B" @click="showKDW24 = false" >CLOSE</button></div>
+          <div class="contentOpen" v-if="!showKDW24"><button  class="contentBtn-Open-B" @click="showKDW24 = true" >OPEN</button></div>
         </div>
       </div>
     </div>
-
     <!-- TRAKA -->
     <div class="contentSec" v-if="showVita">
       <p class="contentPB-White" v-if="!showTRAKA"><button class="contentLeft-White" @click="showTRAKA= true" >&emsp;</button></p>
@@ -439,31 +437,36 @@ const showVita= ref(true)
       </div>
     </div>
 
-    <!-- Workshops 2024 -->
+    <!-- Mercedes Benz -->
     <div class="contentSec" v-if="showVita">
-      <p class="contentPB-Black" v-if="!showKDW24"><button @click="showKDW24 = true" class="contentLeft-Black">&emsp;</button></p>
-      <p class="contentPB-Black" v-if="showKDW24"><button @click="showKDW24 = false" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="!showBenz"><button @click="showBenz = true" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="showBenz"><button @click="showBenz = false" class="contentLeft-Black">&emsp;</button></p>
       <div class="contentCard-Black">
         <div class="contentTitle">
-          <button class="htwo-Black" v-if="!showKDW24" @click="showKDW24 = true"><h2>KD Workshops 2024</h2><h3>&ensp;[Poster]</h3></button>
-          <button class="htwo-Black" v-if="showKDW24" @click="showKDW24 = false"><h2>KD Workshops 2024</h2><h3>&ensp;[Poster]</h3></button>
-          <div class="contentVideo" v-if="showKDW24">
-
-            <img src="./assets/KDW24.png" height="auto" width="100%"/></div>
+          <button class="htwo-Black" v-if="!showBenz" @click="showBenz = true"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <button class="htwo-Black" v-if="showBenz" @click="showBenz = false"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <div class="contentVideo" v-if="showBenz">
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
         <div class="contentHeader">
           <div>
             <div class="contentP-Btn-Programme">
+              <button class="contentBtn-Black"><span class="dot"></span> RESOLUME ARENA</button>
               <button class="contentBtn-Black"><span class="dot"></span> TOUCHDESIGNER</button>
-              <button class="contentBtn-Black"><span class="dot"></span> BLENDER</button>
-              <button class="contentBtn-Black"><span class="dot"></span> ADOBE ID</button>
+              <button class="contentBtn-Black"><span class="dot"></span> CAVALRY</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showBenz">
+              <button class="contentBtn-Black">@LILIAN HUTCHINSON</button>
             </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showKDW24">Hallo</p>
+              <p class="contentP" v-if="showBenz">Hallo</p>
             </div>
           </div>
-          <div class="contentOpen" v-if="showKDW24"><button  class="contentBtn-Open-B" @click="showKDW24 = false" >CLOSE</button></div>
-          <div class="contentOpen" v-if="!showKDW24"><button  class="contentBtn-Open-B" @click="showKDW24 = true" >OPEN</button></div>
+          <div class="contentOpen" v-if="showBenz"><button  class="contentBtn-Open-B" @click="showBenz = false" >CLOSE</button></div>
+          <div class="contentOpen" v-if="!showBenz"><button  class="contentBtn-Open-B" @click="showBenz = true" >OPEN</button></div>
         </div>
       </div>
     </div>
