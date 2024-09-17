@@ -111,10 +111,10 @@ const showVita= ref(true)
               <button class="contentBtn-White"><span class="dot-White"></span> 2018-2019 HDM STUTTGART - COMPUTER SCIENCE(MEDIA)</button>
             </div>
             <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span> 2019-2021 GOING ABK STUTTGART - FINE ARTS</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> 2019-2021 ABK STUTTGART - FINE ARTS</button>
             </div>
             <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span> 2021-ON GOING GOING ABK STUTTGART - COMMUNICATION DESIGN</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> 2021-ON GOING ABK STUTTGART - COMMUNICATION DESIGN</button>
             </div>
 
             <div class="contentP-Btn-Contri">
@@ -339,14 +339,15 @@ const showVita= ref(true)
         </div>
       </div>
     </div>
+
     <!-- TRAKA -->
     <div class="contentSec" v-if="showVita">
       <p class="contentPB-White" v-if="!showTRAKA"><button class="contentLeft-White" @click="showTRAKA= true" >&emsp;</button></p>
       <p class="contentPB-White" v-if="showTRAKA"><button class="contentLeft-White" @click="showTRAKA= false">&emsp;</button></p>
       <div class="contentCard-White">
         <div class="contentTitle">
-          <button class="htwo-White" v-if="!showTRAKA" @click="showTRAKA = true"><h2>TRAKA Niklausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
-          <button class="htwo-White" v-if="showTRAKA" @click="showTRAKA = false"><h2>TRAKA Niklausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <button class="htwo-White" v-if="!showTRAKA" @click="showTRAKA = true"><h2>TRAKA Nikolausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <button class="htwo-White" v-if="showTRAKA" @click="showTRAKA = false"><h2>TRAKA Nikolausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
           <div class="contentVideo" v-if="showTRAKA">
             <video height="auto" width="100%" controls muted autoplay loop>
               <source src="./assets/TRAKA.mp4" type="video/mp4">
@@ -447,7 +448,13 @@ const showVita= ref(true)
           <button class="htwo-Black" v-if="showBenz" @click="showBenz = false"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
           <div class="contentVideo" v-if="showBenz">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/benz01.mp4" type="video/mp4">
+            </video>
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/benz02.mp4" type="video/mp4">
+            </video>
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/benz03.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -533,7 +540,6 @@ const showVita= ref(true)
       </div>
     </div>
 
-
     <!-- Interdiscilipnary Week 2024 -->
     <div class="contentSec" v-if="showVita">
       <p class="contentPB-White" v-if="!showID24"><button class="contentLeft-White" @click="showID24= true" >&emsp;</button></p>
@@ -544,7 +550,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="showID24" @click="showID24 = false"><h2>Interdisciplinary Week 2024</h2><h3>&ensp;[In Progress]</h3></button>
           <div class="contentVideo" v-if="showID24">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/IDW24.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -579,7 +585,7 @@ const showVita= ref(true)
           <button class="htwo-Black" v-if="showLS24" @click="showLS24 = false"><h2>Light-System Workshops</h2><h3>&ensp;[In Progress]</h3></button>
           <div class="contentVideo" v-if="showLS24">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/LSW_1.mp4" type="video/mp4">
             </video>
           </div>
         </div>
