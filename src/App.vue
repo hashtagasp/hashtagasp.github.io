@@ -455,7 +455,7 @@ const showVita= ref(true)
               <button class="contentBtn-White"><span class="dot-White"></span> TOUCHDESIGNER</button>
             </div>
             <div class="contentP-Btn-Contri" v-if="showDTF">
-              <button class="contentBtn-Whitw">SPRING 2023</button>
+              <button class="contentBtn-White">SPRING 2023</button>
             </div>
             <div class="contentP-Btn-White" v-if="showDTF">
               <p class="contentP">
