@@ -138,7 +138,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="showZimmer" @click="showZimmer = false"><h2>Zimmerservice</h2><h3> &ensp;[Poster & Motion]</h3></button>
           <div class="contentVideo" v-if="showZimmer">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/zimmerservice.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -210,7 +210,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="showButton" @click="showButton = false"><h2>Push The Button</h2><h3>&ensp;[Coding & Motion]</h3></button>
           <div class="contentVideo" v-if="showButton">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/PTB.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -247,7 +247,12 @@ const showVita= ref(true)
           <button class="htwo-Black" v-if="showContainer" @click="showContainer = false"><h2>Container City</h2><h3>&ensp;[VJ & Visuals]</h3></button>
           <div class="contentVideo" v-if="showContainer">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/CC01.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="contentVideo" v-if="showContainer">
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/CC02.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -278,7 +283,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="showID23" @click="showID23 = false"><h2>Interdisciplinary Week 2023</h2><h3>&ensp;[CI & Motion]</h3></button>
           <div class="contentVideo" v-if="showID23">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/IDW23.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -346,7 +351,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="showTRAKA" @click="showTRAKA = false"><h2>TRAKA Niklausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
           <div class="contentVideo" v-if="showTRAKA">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/TRAKA.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -381,7 +386,7 @@ const showVita= ref(true)
           <button class="htwo-Black" v-if="showRGA23" @click="showRGA23 = false"><h2>Rundgang Afterparty 2023</h2><h3>&ensp;[VJ & Visuals]</h3></button>
           <div class="contentVideo" v-if="showRGA23">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/RGA23.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -414,7 +419,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="showDTF" @click="showDTF = false"><h2>Down to F*ck</h2><h3>&ensp;[VJ & Visuals]</h3></button>
           <div class="contentVideo" v-if="showDTF">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/DTF.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -443,10 +448,8 @@ const showVita= ref(true)
           <button class="htwo-Black" v-if="!showKDW24" @click="showKDW24 = true"><h2>KD Workshops 2024</h2><h3>&ensp;[Poster]</h3></button>
           <button class="htwo-Black" v-if="showKDW24" @click="showKDW24 = false"><h2>KD Workshops 2024</h2><h3>&ensp;[Poster]</h3></button>
           <div class="contentVideo" v-if="showKDW24">
-            <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
-            </video>
-          </div>
+
+            <img src="./assets/KDW24.png" height="auto" width="100%"/></div>
         </div>
         <div class="contentHeader">
           <div>
@@ -474,10 +477,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="!showDEVEDW" @click="showDEVEDW = true"><h2>DEVEDW</h2><h3>&ensp;[unrealised Poster]</h3></button>
           <button class="htwo-White" v-if="showDEVEDW" @click="showDEVEDW = false"><h2>DEVEDW</h2><h3>&ensp;[unrealised Poster]</h3></button>
           <div class="contentVideo" v-if="showDEVEDW">
-            <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
-            </video>
-          </div>
+            <img src="./assets/Filmposter_01.png" height="auto" width="100%"/></div>
         </div>
         <div class="contentHeader">
           <div>
@@ -506,7 +506,7 @@ const showVita= ref(true)
           <button class="htwo-Black" v-if="showJourFixe" @click="showJourFixe = false"><h2>Jour Fixe</h2><h3>&ensp;[unrealised Poster & Motion]</h3></button>
           <div class="contentVideo" v-if="showJourFixe">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/JF.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -610,7 +610,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="showMAD" @click="showMAD = false"><h2>MAD Lab CI</h2><h3>&ensp;[In Progress]</h3></button>
           <div class="contentVideo" v-if="showMAD">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/waytoomuch_03.mp4" type="video/mp4">
+              <source src="./assets/MAD.mp4" type="video/mp4">
             </video>
           </div>
         </div>
