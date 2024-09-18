@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35f0d287-7186-49d9-9207-eaa583915405" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/RG24_Gray.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/00_Interdis_01.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/0_RG23.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/0_container2_02.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/0_container_01.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/0_ptb_02.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/0_traka.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/DTF_01.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/Filmposter_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/Jour_Fixe_Web_04.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/Kurt.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/RG24.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/Screenshot 2024-03-10 at 16.27.22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/mad_color-logo-flip.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/schwarzbrenne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c13.bewerbung/src/assets/waytoomuch_03.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,23 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/christianmiller/Desktop/Body/SEQ&SYS/05_Deliver/hashtagasp.github.io/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/christianmiller/Desktop/Body/SEQ&amp;SYS/05_Deliver/hashtagasp.github.io/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
@@ -76,6 +92,7 @@
       <workItem from="1726418876763" duration="13362000" />
       <workItem from="1726558985501" duration="31000" />
       <workItem from="1726559213252" duration="859000" />
+      <workItem from="1726595396747" duration="10924000" />
     </task>
     <servers />
   </component>

@@ -602,7 +602,7 @@ const showVita= ref(true)
           <button class="htwo-White" v-if="showID24" @click="showID24 = false"><h2>Interdisciplinary Week 2024</h2><h3>&ensp;[In Progress]</h3></button>
           <div class="contentVideo" v-if="showID24">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/IDW24.mp4" type="video/mp4">
+              <source src="./assets/IDW24_02.mp4" type="video/mp4">
             </video>
           </div>
         </div>
