@@ -104,9 +104,6 @@ const showVita= ref(true)
               <button class="contentBtn-White"><span class="dot-White"></span> LEARNING PROGRAMMS FAST</button>
               <button class="contentBtn-White"><span class="dot-White"></span> QUICK ANIMATION PROTOTYPING</button>
             </div>
-            <div class="contentP-Btn-Contri">
-              <button class="contentBtn-White"><span class="dot-White"></span> LEARNING PROGRAMMS FAST</button>
-            </div>
 
             <div class="contentP-Btn-Contri">
               <p class="contentP"><br>Schools:</p>
