@@ -87,6 +87,9 @@ const showVita= ref(true)
               <button class="contentBtn-White"><span class="dot-White"></span> PROCESSING</button>
               <button class="contentBtn-White"><span class="dot-White"></span> BLENDER</button>
             </div>
+            <div class="contentP-Btn-Contri">
+              <button class="contentBtn-White"><span class="dot-White"></span> LEARNING C++</button>
+            </div>
 
             <div class="contentP-Btn-Contri">
               <p class="contentP"><br>Skills:</p>
