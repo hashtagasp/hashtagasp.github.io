@@ -39,11 +39,11 @@ const showVita= ref(true)
   <header>
     <div class="titleSec">
       <p class="titleP"></p>
-      <h1 class="titleH1" v-if="showVita">BAREIS+NICOLAUS<br>PRAKTIKUM [
+      <h1 class="titleH1" v-if="showVita">BAREIS+NICOLAUS<br>INTERNSHIP [
         <button class="titelBtnActive">PORTFOLIO</button>
         & <button class="titelBtnUnActive" @click="showVita=false">CV</button>  ]
       </h1>
-      <h1 class="titleH1" v-if="!showVita">BAREIS+NICOLAUS<br>PRAKTIKUM [
+      <h1 class="titleH1" v-if="!showVita">BAREIS+NICOLAUS<br>INTERNSHIP [
         <button class="titelBtnUnActive" @click="showVita=true">PORTFOLIO</button>
         & <button class="titelBtnActive">CV</button>  ]
       </h1>
@@ -389,9 +389,9 @@ const showVita= ref(true)
         <div class="contentHeader">
           <div>
             <div class="contentP-Btn-Programme">
-              <button class="contentBtn-White"><span class="dot-White"></span>RESOLUME ARENA</button>
-              <button class="contentBtn-White"><span class="dot-White"></span>TOUCHDESIGNER</button>
-              <button class="contentBtn-White"><span class="dot-White"></span>BLENDER</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> RESOLUME ARENA</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> TOUCHDESIGNER</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> BLENDER</button>
             </div>
             <div class="contentP-Btn-Contri" v-if="showTRAKA">
               <button class="contentBtn-White">@ABK LICHT LICHT</button>
