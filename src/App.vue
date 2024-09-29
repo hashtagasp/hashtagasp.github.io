@@ -167,7 +167,7 @@ const showVita= ref(true)
               <button class="contentBtn-White">SUMMER 2024</button>
             </div>
             <div class="contentP-Btn-White" v-if="showZimmer">
-              <p class="contentP">We created a social media-focused promotion with an animated poster and social media posts for the fine art exhibition at an abandoned hotel called 'Hotel Waldlust' for Klasse Bechinger.
+              <p class="contentP">We created a social media-focused promotion with an animated poster and social media posts for the fine art exhibition at an abandoned hotel called 'Hotel Waldlust' for Klasse Bechinger. The exhibition is part of the Ornamenta 2024.
               </p>
             </div>
           </div>
