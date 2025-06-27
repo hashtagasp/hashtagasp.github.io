@@ -158,6 +158,12 @@ const showISNY= ref(false)
             <video height="auto" width="100%" controls muted autoplay loop>
               <source src="./assets/OnRunning.mp4" type="video/mp4">
             </video>
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/OnZoom.mp4" type="video/mp4">
+            </video>
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/OnArt.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
         <div class="contentHeader">
@@ -212,13 +218,13 @@ const showISNY= ref(false)
               <button class="contentBtn-Black"><span class="dot"></span> ADOBE ID</button>
             </div>
             <div class="contentP-Btn-Contri" v-if="showISNY">
-              <button class="contentBtn-Black">@LILIAN HUTCHINSON</button>
+              <button class="contentBtn-Black">@BAREIS+NICOLAUS</button>
             </div>
             <div class="contentP-Btn-Contri" v-if="showISNY">
-              <button class="contentBtn-Black">SUMMER 2024</button>
+              <button class="contentBtn-Black">SUMMER 2025</button>
             </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showISNY">We were commissioned to prepare live visuals and VJ at 'Discotronic 2024' at the Mercedes Benz Museum.</p>
+              <p class="contentP" v-if="showISNY">At Bareis+Nicolaus I was tasked with developing the Motion Concept & Design for this years first Schloss Festival in Isny im Allgäu.</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showISNY"><button  class="contentBtn-Open-B" @click="showISNY = false" >CLOSE</button></div>
