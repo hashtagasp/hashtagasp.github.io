@@ -35,6 +35,10 @@ const showMAD= ref(false)
 
 const showVita= ref(true)
 
+const showON= ref(false)
+
+const showISNY= ref(false)
+
 </script>
 
 <template>
@@ -141,17 +145,17 @@ const showVita= ref(true)
       </div>
     </div>
 
-    <!-- Zimmerservice -->
+    <!-- OnRunning -->
     <div class="contentSec" v-if="showVita">
-      <p class="contentPB-White" v-if="!showZimmer"><button class="contentLeft-White" @click="showZimmer= true" >&emsp;</button></p>
-      <p class="contentPB-White" v-if="showZimmer"><button class="contentLeft-White" @click="showZimmer= false">&emsp;</button></p>
+      <p class="contentPB-White" v-if="!showON"><button class="contentLeft-White" @click="showON= true" >&emsp;</button></p>
+      <p class="contentPB-White" v-if="showON"><button class="contentLeft-White" @click="showON= false">&emsp;</button></p>
       <div class="contentCard-White">
         <div class="contentTitle">
-          <button class="htwo-White" v-if="!showZimmer" @click="showZimmer = true"><h2>Zimmerservice</h2><h3> &ensp;[Poster & Motion]</h3></button>
-          <button class="htwo-White" v-if="showZimmer" @click="showZimmer = false"><h2>Zimmerservice</h2><h3> &ensp;[Poster & Motion]</h3></button>
-          <div class="contentVideo" v-if="showZimmer">
+          <button class="htwo-White" v-if="!showON" @click="showON = true"><h2>OnRunning Clubhouse Paris</h2><h3>&ensp;[Visuals]</h3></button>
+          <button class="htwo-White" v-if="showON" @click="showON = false"><h2>OnRunning Clubhouse Paris</h2><h3>&ensp;[Visuals]</h3></button>
+          <div class="contentVideo" v-if="showON">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/zimmerservice.mp4" type="video/mp4">
+              <source src="./assets/TRAKA.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -159,40 +163,43 @@ const showVita= ref(true)
           <div>
             <div class="contentP-Btn-Programme">
               <button class="contentBtn-White"><span class="dot-White"></span> CAVALRY</button>
-              <button class="contentBtn-White"><span class="dot-White"></span> ADOBE AI</button>
-              <button class="contentBtn-White"><span class="dot-White"></span> ADOBE ID</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> TOUCHDESIGNER</button>
             </div>
-            <div class="contentP-Btn-Contri" v-if="showZimmer">
-              <button class="contentBtn-White">@JONAS HERMANN</button>
+            <div class="contentP-Btn-Contri" v-if="showON">
+              <button class="contentBtn-White">@BAREIS+NICOLAUS</button>
             </div>
-            <div class="contentP-Btn-Contri" v-if="showZimmer">
-              <button class="contentBtn-White">SUMMER 2024</button>
+            <div class="contentP-Btn-Contri" v-if="showON">
+              <button class="contentBtn-White">SUMMER 2025</button>
             </div>
-            <div class="contentP-Btn-White" v-if="showZimmer">
-              <p class="contentP">We created a social media-focused promotion with an animated poster and social media posts for the fine art exhibition at an abandoned hotel called 'Hotel Waldlust' for Klasse Bechinger. The exhibition is part of the Ornamenta 2024.
+            <div class="contentP-Btn-White" v-if="showON">
+              <p class="contentP">Simply VRUM VRUM, Pabst Blue Ribbon Beer, and trucks - themed party at ABK.
               </p>
             </div>
           </div>
-          <div class="contentOpen" v-if="showZimmer" @click="showZimmer = false"><button class="contentBtn-Open-W">CLOSE</button></div>
-          <div class="contentOpen" v-if="!showZimmer" @click="showZimmer = true"><button class="contentBtn-Open-W">OPEN</button></div>
+          <div class="contentOpen" v-if="showON" @click="showON = false"><button class="contentBtn-Open-W">CLOSE</button></div>
+          <div class="contentOpen" v-if="!showON" @click="showON = true"><button class="contentBtn-Open-W">OPEN</button></div>
         </div>
       </div>
     </div>
 
-    <!-- ABK Rundgang CI 2024 -->
+
+    <!-- Isny -->
     <div class="contentSec" v-if="showVita">
-      <p class="contentPB-Black" v-if="!showRG24"><button @click="showRG24 = true" class="contentLeft-Black">&emsp;</button></p>
-      <p class="contentPB-Black" v-if="showRG24"><button @click="showRG24 = false" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="!showISNY"><button @click="showISNY = true" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="showISNY"><button @click="showISNY = false" class="contentLeft-Black">&emsp;</button></p>
       <div class="contentCard-Black">
         <div class="contentTitle">
-          <button class="htwo-Black" v-if="!showRG24" @click="showRG24 = true"><h2>ABK Rundgang 2024</h2><h3> &ensp;[CI & Motion]</h3></button>
-          <button class="htwo-Black" v-if="showRG24" @click="showRG24 = false"><h2>ABK Rundgang 2024</h2><h3> &ensp;[CI & Motion]</h3></button>
-          <div class="contentVideo" v-if="showRG24">
+          <button class="htwo-Black" v-if="!showISNY" @click="showISNY = true"><h2>Schloss Festival Isny</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <button class="htwo-Black" v-if="showISNY" @click="showISNY = false"><h2>Schloss Festival Isny</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <div class="contentVideo" v-if="showISNY">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/RG24_Web.mp4" type="video/mp4">
+              <source src="./assets/benz01.mp4" type="video/mp4">
             </video>
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/RG24_Gray.mp4" type="video/mp4">
+              <source src="./assets/benz02.mp4" type="video/mp4">
+            </video>
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/benz03.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -201,26 +208,106 @@ const showVita= ref(true)
             <div class="contentP-Btn-Programme">
               <button class="contentBtn-Black"><span class="dot"></span> CAVALRY</button>
               <button class="contentBtn-Black"><span class="dot"></span> BLENDER</button>
-              <button class="contentBtn-Black"><span class="dot"></span> ADOBE AI</button>
-              <button class="contentBtn-Black"><span class="dot"></span> ADOBE CC</button>
+              <button class="contentBtn-Black"><span class="dot"></span> ADOBE ID</button>
             </div>
-            <div class="contentP-Btn-Contri" v-if="showRG24">
-              <button class="contentBtn-Black">@ALEYNA KOHL</button>
-              <button class="contentBtn-Black">@MARYNA ZEVAKO</button>
-              <button class="contentBtn-Black">@MAJKEN BÖCKMANN</button>
+            <div class="contentP-Btn-Contri" v-if="showISNY">
+              <button class="contentBtn-Black">@LILIAN HUTCHINSON</button>
             </div>
-            <div class="contentP-Btn-Contri" v-if="showRG24">
-              <button class="contentBtn-Black">SPRING & SUMMER 2024</button>
+            <div class="contentP-Btn-Contri" v-if="showISNY">
+              <button class="contentBtn-Black">SUMMER 2024</button>
             </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showRG24">Creation and development of the concept, CI, promotional materials (social media, posters, flyers, stickers, merch, mascot, etc.) for the ABK Rundgang 2024. My focus was mainly on animation and 3D.</p>
+              <p class="contentP" v-if="showISNY">We were commissioned to prepare live visuals and VJ at 'Discotronic 2024' at the Mercedes Benz Museum.</p>
             </div>
           </div>
-          <div class="contentOpen" v-if="showRG24"><button  class="contentBtn-Open-B" @click="showRG24 = false" >CLOSE</button></div>
-          <div class="contentOpen" v-if="!showRG24"><button  class="contentBtn-Open-B" @click="showRG24 = true" >OPEN</button></div>
+          <div class="contentOpen" v-if="showISNY"><button  class="contentBtn-Open-B" @click="showISNY = false" >CLOSE</button></div>
+          <div class="contentOpen" v-if="!showISNY"><button  class="contentBtn-Open-B" @click="showISNY = true" >OPEN</button></div>
         </div>
       </div>
     </div>
+
+    <!-- TRAKA -->
+    <div class="contentSec" v-if="showVita">
+      <p class="contentPB-White" v-if="!showTRAKA"><button class="contentLeft-White" @click="showTRAKA= true" >&emsp;</button></p>
+      <p class="contentPB-White" v-if="showTRAKA"><button class="contentLeft-White" @click="showTRAKA= false">&emsp;</button></p>
+      <div class="contentCard-White">
+        <div class="contentTitle">
+          <button class="htwo-White" v-if="!showTRAKA" @click="showTRAKA = true"><h2>TRAKA Nikolausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <button class="htwo-White" v-if="showTRAKA" @click="showTRAKA = false"><h2>TRAKA Nikolausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <div class="contentVideo" v-if="showTRAKA">
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/TRAKA.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="contentHeader">
+          <div>
+            <div class="contentP-Btn-Programme">
+              <button class="contentBtn-White"><span class="dot-White"></span> RESOLUME ARENA</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> TOUCHDESIGNER</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> BLENDER</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showTRAKA">
+              <button class="contentBtn-White">@ABK LICHT LICHT</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showTRAKA">
+              <button class="contentBtn-White">WINTER 2023</button>
+            </div>
+            <div class="contentP-Btn-White" v-if="showTRAKA">
+              <p class="contentP">Simply VRUM VRUM, Pabst Blue Ribbon Beer, and trucks - themed party at ABK.
+              </p>
+            </div>
+          </div>
+          <div class="contentOpen" v-if="showTRAKA" @click="showTRAKA = false"><button class="contentBtn-Open-W">CLOSE</button></div>
+          <div class="contentOpen" v-if="!showTRAKA" @click="showTRAKA = true"><button class="contentBtn-Open-W">OPEN</button></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Mercedes Benz -->
+    <div class="contentSec" v-if="showVita">
+      <p class="contentPB-Black" v-if="!showBenz"><button @click="showBenz = true" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="showBenz"><button @click="showBenz = false" class="contentLeft-Black">&emsp;</button></p>
+      <div class="contentCard-Black">
+        <div class="contentTitle">
+          <button class="htwo-Black" v-if="!showBenz" @click="showBenz = true"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <button class="htwo-Black" v-if="showBenz" @click="showBenz = false"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <div class="contentVideo" v-if="showBenz">
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/benz01.mp4" type="video/mp4">
+            </video>
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/benz02.mp4" type="video/mp4">
+            </video>
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/benz03.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="contentHeader">
+          <div>
+            <div class="contentP-Btn-Programme">
+              <button class="contentBtn-Black"><span class="dot"></span> RESOLUME ARENA</button>
+              <button class="contentBtn-Black"><span class="dot"></span> TOUCHDESIGNER</button>
+              <button class="contentBtn-Black"><span class="dot"></span> CAVALRY</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showBenz">
+              <button class="contentBtn-Black">@LILIAN HUTCHINSON</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showBenz">
+              <button class="contentBtn-Black">SUMMER 2024</button>
+            </div>
+            <div class="contentP-Btn-Black">
+              <p class="contentP" v-if="showBenz">We were commissioned to prepare live visuals and VJ at 'Discotronic 2024' at the Mercedes Benz Museum.</p>
+            </div>
+          </div>
+          <div class="contentOpen" v-if="showBenz"><button  class="contentBtn-Open-B" @click="showBenz = false" >CLOSE</button></div>
+          <div class="contentOpen" v-if="!showBenz"><button  class="contentBtn-Open-B" @click="showBenz = true" >OPEN</button></div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Push The Button-->
     <div class="contentSec" v-if="showVita">
@@ -374,43 +461,45 @@ const showVita= ref(true)
       </div>
     </div>
 
-    <!-- TRAKA -->
+    <!-- Zimmerservice -->
     <div class="contentSec" v-if="showVita">
-      <p class="contentPB-White" v-if="!showTRAKA"><button class="contentLeft-White" @click="showTRAKA= true" >&emsp;</button></p>
-      <p class="contentPB-White" v-if="showTRAKA"><button class="contentLeft-White" @click="showTRAKA= false">&emsp;</button></p>
+      <p class="contentPB-White" v-if="!showZimmer"><button class="contentLeft-White" @click="showZimmer= true" >&emsp;</button></p>
+      <p class="contentPB-White" v-if="showZimmer"><button class="contentLeft-White" @click="showZimmer= false">&emsp;</button></p>
       <div class="contentCard-White">
         <div class="contentTitle">
-          <button class="htwo-White" v-if="!showTRAKA" @click="showTRAKA = true"><h2>TRAKA Nikolausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
-          <button class="htwo-White" v-if="showTRAKA" @click="showTRAKA = false"><h2>TRAKA Nikolausparty</h2><h3>&ensp;[VJ & Visuals]</h3></button>
-          <div class="contentVideo" v-if="showTRAKA">
+          <button class="htwo-White" v-if="!showZimmer" @click="showZimmer = true"><h2>Zimmerservice</h2><h3> &ensp;[Poster & Motion]</h3></button>
+          <button class="htwo-White" v-if="showZimmer" @click="showZimmer = false"><h2>Zimmerservice</h2><h3> &ensp;[Poster & Motion]</h3></button>
+          <div class="contentVideo" v-if="showZimmer">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/TRAKA.mp4" type="video/mp4">
+              <source src="./assets/zimmerservice.mp4" type="video/mp4">
             </video>
           </div>
         </div>
         <div class="contentHeader">
           <div>
             <div class="contentP-Btn-Programme">
-              <button class="contentBtn-White"><span class="dot-White"></span> RESOLUME ARENA</button>
-              <button class="contentBtn-White"><span class="dot-White"></span> TOUCHDESIGNER</button>
-              <button class="contentBtn-White"><span class="dot-White"></span> BLENDER</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> CAVALRY</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> ADOBE AI</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> ADOBE ID</button>
             </div>
-            <div class="contentP-Btn-Contri" v-if="showTRAKA">
-              <button class="contentBtn-White">@ABK LICHT LICHT</button>
+            <div class="contentP-Btn-Contri" v-if="showZimmer">
+              <button class="contentBtn-White">@JONAS HERMANN</button>
             </div>
-            <div class="contentP-Btn-Contri" v-if="showTRAKA">
-              <button class="contentBtn-White">WINTER 2023</button>
+            <div class="contentP-Btn-Contri" v-if="showZimmer">
+              <button class="contentBtn-White">SUMMER 2024</button>
             </div>
-            <div class="contentP-Btn-White" v-if="showTRAKA">
-              <p class="contentP">Simply VRUM VRUM, Pabst Blue Ribbon Beer, and trucks - themed party at ABK.
+            <div class="contentP-Btn-White" v-if="showZimmer">
+              <p class="contentP">We created a social media-focused promotion with an animated poster and social media posts for the fine art exhibition at an abandoned hotel called 'Hotel Waldlust' for Klasse Bechinger. The exhibition is part of the Ornamenta 2024.
               </p>
             </div>
           </div>
-          <div class="contentOpen" v-if="showTRAKA" @click="showTRAKA = false"><button class="contentBtn-Open-W">CLOSE</button></div>
-          <div class="contentOpen" v-if="!showTRAKA" @click="showTRAKA = true"><button class="contentBtn-Open-W">OPEN</button></div>
+          <div class="contentOpen" v-if="showZimmer" @click="showZimmer = false"><button class="contentBtn-Open-W">CLOSE</button></div>
+          <div class="contentOpen" v-if="!showZimmer" @click="showZimmer = true"><button class="contentBtn-Open-W">OPEN</button></div>
         </div>
       </div>
     </div>
+
+
 
     <!-- Rundgang Afterparty 2023-->
     <div class="contentSec" v-if="showVita">
@@ -482,114 +571,45 @@ const showVita= ref(true)
       </div>
     </div>
 
-    <!-- Mercedes Benz -->
+    <!-- ABK Rundgang CI 2024 -->
     <div class="contentSec" v-if="showVita">
-      <p class="contentPB-Black" v-if="!showBenz"><button @click="showBenz = true" class="contentLeft-Black">&emsp;</button></p>
-      <p class="contentPB-Black" v-if="showBenz"><button @click="showBenz = false" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="!showRG24"><button @click="showRG24 = true" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="showRG24"><button @click="showRG24 = false" class="contentLeft-Black">&emsp;</button></p>
       <div class="contentCard-Black">
         <div class="contentTitle">
-          <button class="htwo-Black" v-if="!showBenz" @click="showBenz = true"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
-          <button class="htwo-Black" v-if="showBenz" @click="showBenz = false"><h2>Mercedes Benz Museum</h2><h3>&ensp;[VJ & Visuals]</h3></button>
-          <div class="contentVideo" v-if="showBenz">
+          <button class="htwo-Black" v-if="!showRG24" @click="showRG24 = true"><h2>ABK Rundgang 2024</h2><h3> &ensp;[CI & Motion]</h3></button>
+          <button class="htwo-Black" v-if="showRG24" @click="showRG24 = false"><h2>ABK Rundgang 2024</h2><h3> &ensp;[CI & Motion]</h3></button>
+          <div class="contentVideo" v-if="showRG24">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/benz01.mp4" type="video/mp4">
+              <source src="./assets/RG24_Web.mp4" type="video/mp4">
             </video>
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/benz02.mp4" type="video/mp4">
-            </video>
-            <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/benz03.mp4" type="video/mp4">
+              <source src="./assets/RG24_Gray.mp4" type="video/mp4">
             </video>
           </div>
         </div>
         <div class="contentHeader">
           <div>
             <div class="contentP-Btn-Programme">
-              <button class="contentBtn-Black"><span class="dot"></span> RESOLUME ARENA</button>
-              <button class="contentBtn-Black"><span class="dot"></span> TOUCHDESIGNER</button>
               <button class="contentBtn-Black"><span class="dot"></span> CAVALRY</button>
-            </div>
-            <div class="contentP-Btn-Contri" v-if="showBenz">
-              <button class="contentBtn-Black">@LILIAN HUTCHINSON</button>
-            </div>
-            <div class="contentP-Btn-Contri" v-if="showBenz">
-              <button class="contentBtn-Black">SUMMER 2024</button>
-            </div>
-            <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showBenz">We were commissioned to prepare live visuals and VJ at 'Discotronic 2024' at the Mercedes Benz Museum.</p>
-            </div>
-          </div>
-          <div class="contentOpen" v-if="showBenz"><button  class="contentBtn-Open-B" @click="showBenz = false" >CLOSE</button></div>
-          <div class="contentOpen" v-if="!showBenz"><button  class="contentBtn-Open-B" @click="showBenz = true" >OPEN</button></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- DEVEDW -->
-    <div class="contentSec" v-if="showVita">
-      <p class="contentPB-White" v-if="!showDEVEDW"><button class="contentLeft-White" @click="showDEVEDW= true" >&emsp;</button></p>
-      <p class="contentPB-White" v-if="showDEVEDW"><button class="contentLeft-White" @click="showDEVEDW= false">&emsp;</button></p>
-      <div class="contentCard-White">
-        <div class="contentTitle">
-          <button class="htwo-White" v-if="!showDEVEDW" @click="showDEVEDW = true"><h2>DEVEDW</h2><h3>&ensp;[unrealised Poster]</h3></button>
-          <button class="htwo-White" v-if="showDEVEDW" @click="showDEVEDW = false"><h2>DEVEDW</h2><h3>&ensp;[unrealised Poster]</h3></button>
-          <div class="contentVideo" v-if="showDEVEDW">
-            <img src="./assets/Filmposter_01.png" height="auto" width="100%"/></div>
-        </div>
-        <div class="contentHeader">
-          <div>
-            <div class="contentP-Btn-Programme">
-              <button class="contentBtn-White"><span class="dot-White"></span> ADOBE PS</button>
-              <button class="contentBtn-White"><span class="dot-White"></span> ADOBE ID</button>
-            </div>
-            <div class="contentP-Btn-Contri" v-if="showDEVEDW">
-              <button class="contentBtn-White">WINTER 2021</button>
-            </div>
-            <div class="contentP-Btn-White" v-if="showDEVEDW">
-              <p class="contentP">
-                'Das Ende vom Ende der Welt' was a film poster project that resulted from a collaboration between the Vienna Film Academy and the ABK Stuttgart.
-              </p>
-            </div>
-          </div>
-          <div class="contentOpen" v-if="showDEVEDW" @click="showDEVEDW = false"><button class="contentBtn-Open-W">CLOSE</button></div>
-          <div class="contentOpen" v-if="!showDEVEDW" @click="showDEVEDW = true"><button class="contentBtn-Open-W">OPEN</button></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Jour Fixe -->
-    <div class="contentSec" v-if="showVita">
-      <p class="contentPB-Black" v-if="!showJourFixe"><button @click="showJourFixe = true" class="contentLeft-Black">&emsp;</button></p>
-      <p class="contentPB-Black" v-if="showJourFixe"><button @click="showJourFixe = false" class="contentLeft-Black">&emsp;</button></p>
-      <div class="contentCard-Black">
-        <div class="contentTitle">
-          <button class="htwo-Black" v-if="!showJourFixe" @click="showJourFixe = true"><h2>Jour Fixe</h2><h3>&ensp;[unrealised Poster & Motion]</h3></button>
-          <button class="htwo-Black" v-if="showJourFixe" @click="showJourFixe = false"><h2>Jour Fixe</h2><h3>&ensp;[unrealised Poster & Motion]</h3></button>
-          <div class="contentVideo" v-if="showJourFixe">
-            <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/JF.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-        <div class="contentHeader">
-          <div>
-            <div class="contentP-Btn-Programme">
-              <button class="contentBtn-Black"><span class="dot"></span> ADOBE ID</button>
               <button class="contentBtn-Black"><span class="dot"></span> BLENDER</button>
+              <button class="contentBtn-Black"><span class="dot"></span> ADOBE AI</button>
+              <button class="contentBtn-Black"><span class="dot"></span> ADOBE CC</button>
             </div>
-            <div class="contentP-Btn-Contri" v-if="showJourFixe">
-              <button class="contentBtn-Black">@MARKUS BADER</button>
-              <button class="contentBtn-Black">@BLANCA WILL</button>
+            <div class="contentP-Btn-Contri" v-if="showRG24">
+              <button class="contentBtn-Black">@ALEYNA KOHL</button>
+              <button class="contentBtn-Black">@MARYNA ZEVAKO</button>
+              <button class="contentBtn-Black">@MAJKEN BÖCKMANN</button>
             </div>
-            <div class="contentP-Btn-Contri" v-if="showJourFixe">
-              <button class="contentBtn-Black">AUTUMN 2022</button>
+            <div class="contentP-Btn-Contri" v-if="showRG24">
+              <button class="contentBtn-Black">SPRING & SUMMER 2024</button>
             </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showJourFixe">'Jour Fixe – Practices of Care' is an annual lecture series at the Academy that discusses topics such as architecture, urban planning, and sustainability. In addition to a screen printing design on kraft paper, an animated poster and a flyer were created for the pitch to promote the event."</p>
+              <p class="contentP" v-if="showRG24">Creation and development of the concept, CI, promotional materials (social media, posters, flyers, stickers, merch, mascot, etc.) for the ABK Rundgang 2024. My focus was mainly on animation and 3D.</p>
             </div>
           </div>
-          <div class="contentOpen" v-if="showJourFixe"><button  class="contentBtn-Open-B" @click="showJourFixe = false" >CLOSE</button></div>
-          <div class="contentOpen" v-if="!showJourFixe"><button  class="contentBtn-Open-B" @click="showJourFixe = true" >OPEN</button></div>
+          <div class="contentOpen" v-if="showRG24"><button  class="contentBtn-Open-B" @click="showRG24 = false" >CLOSE</button></div>
+          <div class="contentOpen" v-if="!showRG24"><button  class="contentBtn-Open-B" @click="showRG24 = true" >OPEN</button></div>
         </div>
       </div>
     </div>
@@ -632,6 +652,77 @@ const showVita= ref(true)
         </div>
       </div>
     </div>
+
+    <!-- Jour Fixe -->
+    <div class="contentSec" v-if="showVita">
+      <p class="contentPB-Black" v-if="!showJourFixe"><button @click="showJourFixe = true" class="contentLeft-Black">&emsp;</button></p>
+      <p class="contentPB-Black" v-if="showJourFixe"><button @click="showJourFixe = false" class="contentLeft-Black">&emsp;</button></p>
+      <div class="contentCard-Black">
+        <div class="contentTitle">
+          <button class="htwo-Black" v-if="!showJourFixe" @click="showJourFixe = true"><h2>Jour Fixe</h2><h3>&ensp;[unrealised Poster & Motion]</h3></button>
+          <button class="htwo-Black" v-if="showJourFixe" @click="showJourFixe = false"><h2>Jour Fixe</h2><h3>&ensp;[unrealised Poster & Motion]</h3></button>
+          <div class="contentVideo" v-if="showJourFixe">
+            <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/JF.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="contentHeader">
+          <div>
+            <div class="contentP-Btn-Programme">
+              <button class="contentBtn-Black"><span class="dot"></span> ADOBE ID</button>
+              <button class="contentBtn-Black"><span class="dot"></span> BLENDER</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showJourFixe">
+              <button class="contentBtn-Black">@MARKUS BADER</button>
+              <button class="contentBtn-Black">@BLANCA WILL</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showJourFixe">
+              <button class="contentBtn-Black">AUTUMN 2022</button>
+            </div>
+            <div class="contentP-Btn-Black">
+              <p class="contentP" v-if="showJourFixe">'Jour Fixe – Practices of Care' is an annual lecture series at the Academy that discusses topics such as architecture, urban planning, and sustainability. In addition to a screen printing design on kraft paper, an animated poster and a flyer were created for the pitch to promote the event."</p>
+            </div>
+          </div>
+          <div class="contentOpen" v-if="showJourFixe"><button  class="contentBtn-Open-B" @click="showJourFixe = false" >CLOSE</button></div>
+          <div class="contentOpen" v-if="!showJourFixe"><button  class="contentBtn-Open-B" @click="showJourFixe = true" >OPEN</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEVEDW -->
+    <div class="contentSec" v-if="showVita">
+      <p class="contentPB-White" v-if="!showDEVEDW"><button class="contentLeft-White" @click="showDEVEDW= true" >&emsp;</button></p>
+      <p class="contentPB-White" v-if="showDEVEDW"><button class="contentLeft-White" @click="showDEVEDW= false">&emsp;</button></p>
+      <div class="contentCard-White">
+        <div class="contentTitle">
+          <button class="htwo-White" v-if="!showDEVEDW" @click="showDEVEDW = true"><h2>DEVEDW</h2><h3>&ensp;[unrealised Poster]</h3></button>
+          <button class="htwo-White" v-if="showDEVEDW" @click="showDEVEDW = false"><h2>DEVEDW</h2><h3>&ensp;[unrealised Poster]</h3></button>
+          <div class="contentVideo" v-if="showDEVEDW">
+            <img src="./assets/Filmposter_01.png" height="auto" width="100%"/></div>
+        </div>
+        <div class="contentHeader">
+          <div>
+            <div class="contentP-Btn-Programme">
+              <button class="contentBtn-White"><span class="dot-White"></span> ADOBE PS</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> ADOBE ID</button>
+            </div>
+            <div class="contentP-Btn-Contri" v-if="showDEVEDW">
+              <button class="contentBtn-White">WINTER 2021</button>
+            </div>
+            <div class="contentP-Btn-White" v-if="showDEVEDW">
+              <p class="contentP">
+                'Das Ende vom Ende der Welt' was a film poster project that resulted from a collaboration between the Vienna Film Academy and the ABK Stuttgart.
+              </p>
+            </div>
+          </div>
+          <div class="contentOpen" v-if="showDEVEDW" @click="showDEVEDW = false"><button class="contentBtn-Open-W">CLOSE</button></div>
+          <div class="contentOpen" v-if="!showDEVEDW" @click="showDEVEDW = true"><button class="contentBtn-Open-W">OPEN</button></div>
+        </div>
+      </div>
+    </div>
+
+
 
     <!-- Light-System Workshops -->
     <div class="contentSec" v-if="showVita">
