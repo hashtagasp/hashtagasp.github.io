@@ -179,8 +179,7 @@ const showISNY= ref(false)
               <button class="contentBtn-White">SUMMER 2025</button>
             </div>
             <div class="contentP-Btn-White" v-if="showON">
-              <p class="contentP">Simply VRUM VRUM, Pabst Blue Ribbon Beer, and trucks - themed party at ABK.
-              </p>
+              <p class="contentP">During the 'On Clubhouse Night' event in Paris, our team at Bareis+Nicolaus created the live visuals for the afterparty, drawing inspiration from John Provencher’s artwork.</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showON" @click="showON = false"><button class="contentBtn-Open-W">CLOSE</button></div>
@@ -224,7 +223,7 @@ const showISNY= ref(false)
               <button class="contentBtn-Black">SUMMER 2025</button>
             </div>
             <div class="contentP-Btn-Black">
-              <p class="contentP" v-if="showISNY">At Bareis+Nicolaus I was tasked with developing the Motion Concept & Design for this years first Schloss Festival in Isny im Allgäu.</p>
+              <p class="contentP" v-if="showISNY">As part of Bareis+Nicolaus, I led the motion concept and design for the debut edition of the Schloss Festival in Isny im Allgäu.</p>
             </div>
           </div>
           <div class="contentOpen" v-if="showISNY"><button  class="contentBtn-Open-B" @click="showISNY = false" >CLOSE</button></div>
