@@ -45,11 +45,11 @@ const showISNY= ref(false)
   <header>
     <div class="titleSec">
       <p class="titleP"></p>
-      <h1 class="titleH1" v-if="showVita">APPOLON SHOWCASE 2025<br>OPEN CALL [
+      <h1 class="titleH1" v-if="showVita">APOLLON SHOWCASE 2025<br>OPEN CALL [
         <button class="titelBtnActive">PORTFOLIO</button>
         & <button class="titelBtnUnActive" @click="showVita=false">CV</button>  ]
       </h1>
-      <h1 class="titleH1" v-if="!showVita">APPOLON SHOWCASE 2025<br>OPEN CALL [
+      <h1 class="titleH1" v-if="!showVita">APOLLON SHOWCASE 2025<br>OPEN CALL [
         <button class="titelBtnUnActive" @click="showVita=true">PORTFOLIO</button>
         & <button class="titelBtnActive">CV</button>  ]
       </h1>
