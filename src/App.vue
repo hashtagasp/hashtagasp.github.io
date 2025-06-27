@@ -88,6 +88,7 @@ const showISNY= ref(false)
             <div class="contentP-Btn-Contri">
               <button class="contentBtn-White"><span class="dot-White"></span> HTML</button>
               <button class="contentBtn-White"><span class="dot-White"></span> CSS</button>
+              <button class="contentBtn-White"><span class="dot-White"></span> JAVASCRIPT</button>
               <button class="contentBtn-White"><span class="dot-White"></span> VUE.JS</button>
               <button class="contentBtn-White"><span class="dot-White"></span> PYTHON</button>
               <button class="contentBtn-White"><span class="dot-White"></span> PROCESSING</button>
@@ -155,7 +156,7 @@ const showISNY= ref(false)
           <button class="htwo-White" v-if="showON" @click="showON = false"><h2>OnRunning Clubhouse Paris</h2><h3>&ensp;[Visuals]</h3></button>
           <div class="contentVideo" v-if="showON">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/TRAKA.mp4" type="video/mp4">
+              <source src="./assets/OnRunning.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -189,17 +190,17 @@ const showISNY= ref(false)
       <p class="contentPB-Black" v-if="showISNY"><button @click="showISNY = false" class="contentLeft-Black">&emsp;</button></p>
       <div class="contentCard-Black">
         <div class="contentTitle">
-          <button class="htwo-Black" v-if="!showISNY" @click="showISNY = true"><h2>Schloss Festival Isny</h2><h3>&ensp;[VJ & Visuals]</h3></button>
-          <button class="htwo-Black" v-if="showISNY" @click="showISNY = false"><h2>Schloss Festival Isny</h2><h3>&ensp;[VJ & Visuals]</h3></button>
+          <button class="htwo-Black" v-if="!showISNY" @click="showISNY = true"><h2>Schloss Festival Isny</h2><h3>&ensp;[Motion Concept & Design]</h3></button>
+          <button class="htwo-Black" v-if="showISNY" @click="showISNY = false"><h2>Schloss Festival Isny</h2><h3>&ensp;[Motion Concept & Design]</h3></button>
           <div class="contentVideo" v-if="showISNY">
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/benz01.mp4" type="video/mp4">
+              <source src="./assets/Line_Test_130000-0360.mp4" type="video/mp4">
             </video>
+            <!-- <video height="auto" width="100%" controls muted autoplay loop>
+              <source src="./assets/Luec_Test_030000-0360.mp4" type="video/mp4">
+            </video> -->
             <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/benz02.mp4" type="video/mp4">
-            </video>
-            <video height="auto" width="100%" controls muted autoplay loop>
-              <source src="./assets/benz03.mp4" type="video/mp4">
+              <source src="./assets/Tickets.mp4" type="video/mp4">
             </video>
           </div>
         </div>
